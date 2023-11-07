@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="CSS/normalize.css">
+	<link rel="stylesheet" href="CSS/styles.css">
+	<link rel="stylesheet" href="CSS/fonts.css">
+	<link rel="icon" type="image/x-icon" href="IMG/icon.png">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.slim.min.js"></script>
+	<title>Stay updated</title>
+</head>
+<body>
+	<main id="main">
+		<div class="left-side">
+			<div>
+				<div>
+					<h1>Stay updated!</h1>
+					<p>Join 60,000+ products managers receiving monthly <br class="hide-br"> uptades on:</p>
+				</div>
+				<div>
+					<div>
+						<div>
+							<img src="IMG/check.png" alt="Check">
+						</div>
+						<p>Product discovery and building what matter</p>
+					</div>
+					<div>
+						<div>
+							<img src="IMG/check.png" alt="Check">
+						</div>
+						<p>Measuring to ensure uptades are a success</p>
+					</div>
+					<div>
+						<div>
+							<img src="IMG/check.png" alt="Check">
+						</div>
+						<p>And much more!</p>
+					</div>
+				</div>
+			</div>
+			<form class="form" id="form">
+				<div class="labels">
+					<label for="email">Email address</label>
+					<p id="emailError">Valid email required</p>
+				</div>
+				<input type="email" id="email" name="email" placeholder="email@company.com">
+				<div>
+					<input type="submit" value="Subscribe to monthly newsletter">
+				</div>
+			</form>
+		</div>
+		<div class="right-side">
+			<img src="IMG/img1.jpg" alt="">
+		</div>
+	</main>																
+
+
+	<section id="section-alert">
+		<div>
+			<div id="idIMG">
+				<img src="IMG/check.png" alt="Check">
+			</div>
+			<div>
+				<h2>Thanks for <br>subcribing!</h2>
+				<p>An email confirmation has been sent to <br><span id="emailValue" class="email-value"></span>. Plase open it and click <br> the button inside to confirm your subscription.</p>
+			</div>							
+			<div id="buttonToHide">
+				<button>Dismiss message</button>
+			</div>
+		</div>
+	</section>																
+
+	<script src="JS/script.js">
+	</script>
+</body>
+</html>
